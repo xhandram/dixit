@@ -7,20 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="dist/css/lightbox.min.css">
     </head>
     <body>
        <header>
-           <button class="btn">View 1</button>
-           <button class="btn">View 2</button>
+           <button class="btn" id="selectionBtn">Ver Selección</button>
+           <button class="btn" id="resetBtn">Empezar</button>
        </header>
        <div class="content">
-           <h1 class="center"> Cartas Dixit 1 </h1>
+           <h1 class="center"> Elige tu/s cartas</h1>
            <div id="numCards" class="right"></div>
            <div id="cardsWrapper">
                
            </div>
        </div>
-        
+       <script
+       src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="script.js" async defer></script>
+        <script src="dist/js/lightbox.min.js" async defer></script>
     </body>
 </html>
